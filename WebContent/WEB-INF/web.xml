@@ -46,7 +46,15 @@
     <servlet-name>Deconnexion</servlet-name>
     <servlet-class>com.yrp.servlets.Deconnexion</servlet-class>
   </servlet>
-  
+  <servlet>
+	<servlet-name>GestionTestJDBC</servlet-name>
+	<servlet-class>com.yrp.servlets.GestionTestJDBC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>GestionTestJDBC</servlet-name>
+	<url-pattern>/testjdbc</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Deconnexion</servlet-name>
     <url-pattern>/deconnexion</url-pattern>

@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Connexion</title>
-	<link type="text/css" rel="stylesheet" href="<c:url value='inc/style.css'/>" />
+<meta charset="utf-8" />
+<title>Connexion</title>
+<link type="text/css" rel="stylesheet" href="inc/style.css" />
 </head>
 <body>
 	<form method="post" action="connexion">
